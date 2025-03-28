@@ -1,0 +1,354 @@
+@font-face {
+    font-family: Inter;
+    src: url("../fonts/Inter-VariableFont_opsz\,wght.ttf");
+}
+
+body{
+    font-family: Inter;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.main_hr{
+    color: rgba(255, 255, 255, 0.849);
+    size:2;
+    width:95%;
+}
+a{
+    color: white;
+    text-decoration: none;
+    transition: 0.2s all ease-in-out;
+}
+.lecture a:hover{
+    text-decoration: underline;
+}
+.link:hover{
+    border: rgba(255, 255, 255, 0.849) solid 2.5px;
+    padding: 0.4vw;
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: 0.5vw;
+    
+}
+/*.link:hover a{
+    color: rgb(170, 223, 255);
+}*/
+#active{
+    border: rgba(255, 255, 255, 0.849) solid 2px;
+    background-color: rgba(255, 255, 255, 0.849);
+    padding: 0.4vw;
+}
+.index{
+    background: url("../img/fon11.jpg");
+    
+    background-size: cover;
+    border-bottom: rgba(255, 255, 255, 0.849) 2px solid;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo_and_name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    flex-wrap: wrap;
+}
+.logo_and_name img{
+    width: 47px;
+    margin-right:  0.7vw;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    flex-wrap: wrap;
+}
+
+.links .link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:  0 0.5vw;
+    transition: 0.2s all ease-in-out;
+    text-transform: uppercase;
+}
+
+.links .link img{
+    width: 35px;
+    margin:  0 0.5vw;
+}
+
+/*первая жесть*/
+
+.python_start_frame{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.python_start_frame .python_description{
+    width: 40%;
+
+    border: 3px solid rgba(255, 255, 255, 0.849);
+    border-radius: 0.7vw;
+    padding: 5vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+.python_description{
+    background-color: rgba(0, 0, 0, 0.04);
+    
+}
+.a_start_education{
+    background-color: white;
+    color:rgb(0, 157, 255);
+    border-radius: 0.3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    transition: 0.2s all ease-in-out;
+    padding: 0.5vw;
+    margin-top: 5%;
+    
+}
+.a_start_education:hover{
+    background-color: rgb(0, 157, 255);
+    color:white;
+}
+
+.snake_left_start img , .snake_right_start img{
+    width: 10vw;
+}
+
+/*лекции*/
+.usual_hr{
+    color: rgba(255, 255, 255, 0.849);
+    size:2;
+}
+.link_on_lecture{
+    text-decoration: underline;
+    
+}
+.link_on_lecture:hover{
+    color: #00BFFF;
+}
+
+.link_on_lecture_li{
+    padding-bottom: 0.7vw;
+}
+#lectures{
+    /*background: linear-gradient( #000a5f, #000000);*/
+    background:url("../img/fon2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.lectures_list{
+    padding: 5%;
+}
+
+.lecture{
+    padding: 1vw;
+    border: 3px solid rgba(255, 255, 255, 0.849);
+    text-align: left;
+    border-radius: 0.5vw;
+    width: 35%;
+    margin-right: 5vw;
+    background-color: rgba(0, 0, 0, 0.118);
+}
+.lectures_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.lecture_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+    
+}
+
+.lecture_description{
+    width: 35%;
+}
+/*подвал сайта ы*/
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    padding-bottom: 2%;
+}
+
+.net_link a img{
+    width: 35px;
+    padding: 0.3vw;
+    transition: 0.2s all ease-in-out;
+}
+.net_link a img:hover{
+    width: 40px;
+}
+.networks_links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.networks_links .net_link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*страничка с видео лекциями*/
+.video_page{
+    /*background: linear-gradient(#000a5f, #000000);*/
+    background:url("../img/fon2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#videos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.video_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    border: 2px solid #ffffff;
+    border-radius: 0.5vw;
+    width: 50%;
+    margin-bottom: 5%;
+    background-color: rgba(0, 0, 0, 0.227);
+}
+
+.video h1{
+    margin-top: 5%;
+    margin-bottom: -1%;
+}
+.video iframe{
+    padding: 3%;
+}
+.video p{
+    margin: -1%;
+    width: 75%;
+    padding: 5%;
+    padding-bottom: 7%;
+}
+.video_container .snake_left_start, .video_container .snake_right_start{
+    padding: 5%;
+    
+}
+
+.video_container .snake_left_start img {
+
+    transform: rotate(-90deg);
+}
+.video_container .snake_right_start img{
+
+    transform: rotate(90deg);
+}
+.video_hr{
+    color: rgba(255, 255, 255, 0.849);
+    size:2;
+    margin-bottom: 3%;
+}
+
+/*тестовые тесты*/
+
+#test_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+.test_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+
+}
+.test_container h1{
+    width: 70%;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    nav{
+        padding-top: 3%;
+        flex-direction: column;
+    }
+    footer{
+        flex-direction: column;
+    }
+    /*лекции*/
+    .snake_left_start, .snake_right_start{
+        display: none;
+    }
+    .python_start_frame .python_description{
+        width: 70%;
+    }
+    .a_start_education{
+        width: 70%;
+        padding: 3%;
+    }
+    .lecture_container{
+        flex-direction: column;
+    }
+    .lecture{
+        width: 90%;
+    }
+    .lecture h2{
+        text-align: center;
+    }
+    .lecture_description{
+        width: 90%;
+    }
+    /*видосы*/
+    .video{
+        width: 90%;
+    }
+    .video_container{
+        width: 90%;
+    }
+    iframe{
+        width: 300px;
+        height: auto;
+    }
+    /*тесты*/
+    .test_container iframe{
+        width: 100%;
+        height: 600px;
+    }
+}
